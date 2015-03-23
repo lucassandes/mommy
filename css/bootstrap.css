@@ -1,0 +1,28 @@
+
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px)  and (max-width: 991px){
+    .hidden-sm {
+        display: none !important;
+    }
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1024px){
+    .hidden-md {
+        display: none !important;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1025px) {
+    .hidden-lg {
+        display: none !important;
+    }
+}

@@ -1,0 +1,217 @@
+header #logo-mobile{
+    float:right;
+    width: 166px;
+    margin-top: 0px;
+    margin-bottom: -200px;
+    z-index: 10;
+    position: relative;
+}
+
+#primary {
+    z-index: 9;
+    position: relative;
+}
+
+#primary ul li {
+    padding: 0 15px
+}
+
+a {
+    color: #000000;
+}
+
+#footer .footerwidget .icon {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#footer .footerwidget p span{
+    letter-spacing: -1px;
+}
+
+#midsection{
+    border-top: 3px solid black;
+    border-bottom: 0;
+    margin-top:30px;
+
+
+}
+
+.social-icons {
+    background:white;
+    max-width: 265px;
+    margin:0 auto;
+   /* border: 1px solid red;*/
+    margin-top: -55px;
+    padding-top:10px;
+
+}
+
+
+#footer .footerwidget p{
+    letter-spacing: 0;
+}
+
+
+#footer .footerwidget .dizeres {
+    float: left;
+
+}
+
+#footer .aligncenter, #footer img .aligncenter {
+    margin: 0  auto;
+    margin-top: 5px;
+}
+/* Small devices (tablets, 768px and up) */
+@media(min-width: 768px)  {
+
+    #footer .footerwidget {
+        min-height: 50px;
+    }
+
+
+    #footer .footerwidget p span{
+        letter-spacing: -1px;
+    }
+    #logo {
+        float: none;
+        display: inherit;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #footer .footerwidget {
+        border-right: 2px solid black;
+    }
+
+    #footer .last {
+        border-right: none;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1025px)  {
+    #primary {
+
+        width:865px ;
+        float: left;
+    }
+    #breve-ecom {
+        float: left;
+        margin-top:35px ;
+        margin-left:15px
+    }
+    #logo {
+        float: left;
+    }
+    .navigation .nav {
+        margin-top:20px;
+    }
+    #logo img {
+        margin-right: 20px;
+    }
+}
+
+/*--- icons---*/
+@font-face {
+    font-family: 'si';
+    src: url('../fonts/socicon.eot');
+    src: url('../fonts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socicon.woff') format('woff'),
+         url('../fonts/socicon.ttf') format('truetype'),
+         url('../fonts/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../fonts/socicon.svg) format(svg);
+    }
+}
+
+
+
+ul.soc {
+    display:block;
+    text-align: center;
+}
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 24px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.soc a:hover {
+    z-index: 2;
+    background-color:#363636 !important;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-facebook:before {
+    content:'b';
+}
+.soc-youtube:before {
+    content:'r';
+}
+.soc-rss:before {
+    content:',';
+}
+.soc-instagram:before {
+    content:'x';
+}
+
+
+/*--- /icons ---*/
